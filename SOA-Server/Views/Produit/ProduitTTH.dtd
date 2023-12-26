@@ -1,0 +1,12 @@
+<!ELEMENT Produits (Produit*)>
+
+<!ELEMENT Produit (id, type, nom, stock, prix, couleur, categ)>
+
+<!ELEMENT id ID>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>
+<!ELEMENT couleur (#PCDATA)>
+<!ELEMENT categ (#PCDATA)>
+
